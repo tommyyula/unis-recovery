@@ -4,6 +4,20 @@
   "compatibility_date": "2026-11-25",
   "workers_dev": true,
   "preview_urls": false,
-  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": true},
-  "vars": {"ACCESS_TEAM_DOMAIN": "", "ACCESS_AUD": ""}
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "",
+    "ACCESS_AUD": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "unis-recovery",
+      "database_id": "9aa5fe19-9901-42de-9eb2-52adc341e5fd"
+    }
+  ]
 }
